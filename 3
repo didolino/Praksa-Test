@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <style media="screen">
+    html { background-color: white;
+      font-family: arial;
+      font-weight: bold;
+
+
+
+
+    }
+
+
+
+
+
+    </style>
+  </head>
+  <body onload="myFunction()">
+
+
+
+
+
+<h1>SIMPLE CALCULATOR</h1>
+<FORM NAME="Calc">
+<TABLE BORDER=5>
+<TR>
+<TD>
+<INPUT TYPE="text"   NAME="Input" Size="32">
+<br>
+</TD>
+</TR>
+<TR>
+<TD>
+<INPUT TYPE="button" id="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
+<INPUT TYPE="button" id="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+<INPUT TYPE="button" id="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
+<INPUT TYPE="button" id="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+  <INPUT TYPE="button" id="sqrt"   VALUE="  √  " OnClick="Calc.Input.value = Math.sqrt (Calc.Input.value) ">
+<br>
+<INPUT TYPE="button" id="four"   VALUE="  4  " OnClick="Calc.Input.value += '4'">
+<INPUT TYPE="button" id="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+<INPUT TYPE="button" id="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'">
+<INPUT TYPE="button" id="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+  <INPUT TYPE="button" id="p2"   VALUE="  ˆ2  " OnClick="Calc.Input.value = Math.pow (Calc.Input.value, 2) ">
+<br>
+<INPUT TYPE="button" id="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'">
+<INPUT TYPE="button" id="eight" VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+<INPUT TYPE="button" id="nine"  VALUE="  9  " OnClick="Calc.Input.value += '9'">
+<INPUT TYPE="button" id="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
+    <INPUT TYPE="button" id="p3"   VALUE="  ˆ3  " OnClick="Calc.Input.value = Math.pow (Calc.Input.value, 3) ">
+<br>
+<INPUT TYPE="button" id="clear" VALUE="  c  " OnClick="Calc.Input.value = ''">
+<INPUT TYPE="button" id="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
+<INPUT TYPE="button" id="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+<INPUT TYPE="button" id="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+
+
+
+<br>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+<script>
+function myFunction() {
+
+        document.getElementById("one").style.width = "60px";
+        document.getElementById("two").style.width = "60px";
+        document.getElementById("three").style.width = "60px";
+        document.getElementById("four").style.width = "60px";
+        document.getElementById("five").style.width = "60px";
+        document.getElementById("six").style.width = "60px";
+        document.getElementById("seven").style.width = "60px";
+        document.getElementById("eight").style.width = "60px";
+        document.getElementById("nine").style.width = "60px";
+        document.getElementById("eight").style.width = "60px";
+        document.getElementById("plus").style.width = "60px";
+        document.getElementById("clear").style.width = "60px";
+        document.getElementById("zero").style.width = "60px";
+        document.getElementById("DoIt").style.width = "60px";
+        document.getElementById("div").style.width = "60px";
+        document.getElementById("times").style.width = "60px";
+        document.getElementById("minus").style.width = "60px";
+        document.getElementById("p2").style.width = "60px";
+        document.getElementById("p3").style.width = "60px";
+        document.getElementById("sqrt").style.width = "60px";
+        document.getElementById("clear").style.height = "60px";
+        document.getElementById("zero").style.height = "60px";
+        document.getElementById("DoIt").style.height = "60px";
+        document.getElementById("div").style.height = "60px";
+
+
+
+}
+</script>
+
+
+
+<form action="1">
+    <input type="submit" value="<<" />
+</form>
+
+</body>
+</html>
